@@ -2,6 +2,7 @@
 const read = require('readline-sync')
 const buscarLivros = require('./controllers/buscarLivros')
 const listarLivrosOrdenados = require('./controllers/listarLivrosOrdenados')
+const listarLivrosNaoLidos = require('./controllers/listarLivrosNaoLidos')
 
 const resposta = read.question(`
 ########## Menu #########
@@ -23,6 +24,12 @@ switch (resposta){
         break
     case '2':
         listarLivrosOrdenados()
+        break
+    // case '3':
+    //     listarRecomendados()
+    //     break
+    case '4':
+        listarLivrosNaoLidos()
         break
     default:
         console.log('fim do algoritmo')
