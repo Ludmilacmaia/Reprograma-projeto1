@@ -64,7 +64,7 @@ const livros = [
     },
     {
       nome: 'Your name',
-      categoria: 'mangá',
+      categoria: 'mangah',
       paginas: 400,
       recomenda: true,
       leu: true
