@@ -2,6 +2,7 @@
 const read = require('readline-sync')
 const buscarLivros = require('./controllers/buscarLivros')
 const listarLivrosOrdenados = require('./controllers/listarLivrosOrdenados')
+const listarRecomendados = require('./controllers/listarRecomendados')
 const listarLivrosNaoLidos = require('./controllers/listarLivrosNaoLidos')
 
 const resposta = read.question(`
@@ -16,7 +17,6 @@ const resposta = read.question(`
 Digite um numero[1-5]:
 
 `)
-// console.log(resposta)
 
 switch (resposta){
     case '1':
@@ -25,9 +25,9 @@ switch (resposta){
     case '2':
         listarLivrosOrdenados()
         break
-    // case '3':
-    //     listarRecomendados()
-    //     break
+    case '3':
+        listarRecomendados()
+        break
     case '4':
         listarLivrosNaoLidos()
         break
