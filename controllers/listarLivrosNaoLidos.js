@@ -13,6 +13,9 @@ const listarLivrosNaoLidos = () => {
 
             
         }
+        else{
+            console.log('ok, fica para a próxima')
+        }
     }
 
 

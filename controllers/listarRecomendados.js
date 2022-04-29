@@ -14,6 +14,9 @@ const listarRecomendados = () => {
     
                 
             }
+            else{
+                console.log('ok, fica para a próxima')
+            }
         }
     
     

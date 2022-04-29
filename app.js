@@ -9,9 +9,9 @@ const resposta = read.question(`
 ########## Menu #########
 
 1 - CATEGORIA: Buscar livros por categoria
-2 - ORDENAR: Ordenar livros por quantidade de páginas
+2 - ORDENAR: Ordenar livros por quantidade de paginas
 3 - RECOMENDADOS: Buscar livros recomendados
-4 - LISTA DE DESEJOS: Busca livros não lidos
+4 - LISTA DE DESEJOS: Busca livros nao lidos
 5 - SAIR
 
 Digite um numero[1-5]:
